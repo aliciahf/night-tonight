@@ -13,7 +13,7 @@ public class startGame : MonoBehaviour {
         }
             else if (Input.anyKey)
         {
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene("tutorial");
         }
 	}
 }
